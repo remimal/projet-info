@@ -124,3 +124,5 @@ tableTrajets()
 tableVoyageurs.Gare_étrangère
 
 tableTrajets.columns
+
+os.listdir()
