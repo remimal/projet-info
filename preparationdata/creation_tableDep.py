@@ -11,7 +11,7 @@ def creation_tableDep():
         Avec les colonnes code_UIC, dep et reg
     """
    
-    tableDep = pd.read_csv(os.path.join("preparationdata/data","v_departement_2023.csv"),sep=",",
+    tableDep = pd.read_csv(os.path.join("projetinfo/preparationdata/data","v_departement_2023.csv"),sep=",",
                              dtype={'DEP': str,'REG': str})   
     
     tableDep = tableDep.rename(columns = {"DEP" : "dep",

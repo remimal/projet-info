@@ -1,5 +1,5 @@
 import pandas as pd
-from preparationdata.creation_tableTrajets import creation_tableTrajets
+from projetinfo.preparationdata.creation_tableTrajets import creation_tableTrajets
 
 class TableTrajets:
     """Définit une table de trajets.*

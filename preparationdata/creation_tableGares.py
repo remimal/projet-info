@@ -11,7 +11,7 @@ def creation_tableGares():
         Avec les colonnes code_UIC, dep et reg
     """
        
-    tableVoyageurs = pd.read_csv(os.path.join("preparationdata/data","referentiel-gares-voyageurs.csv"),sep=";",
+    tableVoyageurs = pd.read_csv(os.path.join("projetinfo/preparationdata/data","referentiel-gares-voyageurs.csv"),sep=";",
                              dtype={'Code UIC': str,'Code Commune': str,'Code département': str})
     tableVoyageurs.columns = [c.replace(' ','_') for c in tableVoyageurs.columns]
     

@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-from preparationdata.creation_tableTGV import creation_tableTGV
+from projetinfo.preparationdata.creation_tableTGV import creation_tableTGV
 
 def creation_tableCorrespondances():
     """Création de la table des correspondnaces.

@@ -1,9 +1,9 @@
 import pandas as pd
 import os
-from preparationdata.creation_tableTGV import creation_tableTGV
-from preparationdata.creation_tableTER import creation_tableTER
-from preparationdata.creation_tableCorrespondances import creation_tableCorrespondances
-from preparationdata.creation_tableDep import creation_tableDep
+from projetinfo.preparationdata.creation_tableTGV import creation_tableTGV
+from projetinfo.preparationdata.creation_tableTER import creation_tableTER
+from projetinfo.preparationdata.creation_tableCorrespondances import creation_tableCorrespondances
+from projetinfo.preparationdata.creation_tableDep import creation_tableDep
 
 def creation_tableTrajets():
     """Création de la table des trajets.

@@ -1,10 +1,10 @@
 import __init__
-from preparationdata.appurement_correspondances import appurement_correspondances
-from preparationdata.creation_tableTrajets import creation_tableTrajets
-from preparationdata.filtre_type import filtre_type
-from preparationdata.filtre_depreg import filtre_depreg
-from preparationdata.filtre_tgv import filtre_tgv
-from preparationdata.filtre_ter import filtre_ter
+from projetinfo.preparationdata.appurement_correspondances import appurement_correspondances
+from projetinfo.preparationdata.creation_tableTrajets import creation_tableTrajets
+from projetinfo.preparationdata.filtre_type import filtre_type
+from projetinfo.preparationdata.filtre_depreg import filtre_depreg
+from projetinfo.preparationdata.filtre_tgv import filtre_tgv
+from projetinfo.preparationdata.filtre_ter import filtre_ter
 
 # On charge la table de tous les trajets
 tableTrajets = creation_tableTrajets()
